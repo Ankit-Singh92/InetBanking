@@ -13,7 +13,6 @@ public class Tc_LoginTest_001 extends BaseClass {
 	
 	@Test
 	public void loginTest() throws IOException{
-		
 		logger.info("login Pa"
 				+ "ge Url Opened");
 		LoginPage login=new LoginPage(driver);
